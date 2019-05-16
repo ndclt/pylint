@@ -51,3 +51,7 @@ def disable():
 @pytest.fixture(scope="module")
 def reporter():
     return MinimalTestReporter
+
+
+def not_used_again_in_test():
+    variable_not_used_in_test = 1

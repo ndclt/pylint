@@ -32,3 +32,7 @@ def build_message_definition(checker, msgid, msg_tuple):
         symbol = None
     options.setdefault("scope", default_scope)
     return MessageDefinition(checker, msgid, msg, descr, symbol, **options)
+
+
+def not_used():
+    variable_not_used = 1
